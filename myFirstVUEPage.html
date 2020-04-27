@@ -17,6 +17,8 @@
         {{ myhtml }}
          <!-- 指令 -->
     <div v-html="myhtml"></div>
+    <div v-show="isShow">动态显示隐藏</div>
+    <div v-if="isCreated">动态创建删除</div>
     </div>
    
     <!-- 开发环境版本，包含了有帮助的命令行警告 -->
@@ -26,7 +28,9 @@
             el: '#app',
             data: {
                 message: 'Hello Vue!',
-                myhtml:"<b>11111111111111111</b>"
+                isShow:true,//这种是隐藏
+                isCreated:true,//这种如果为false，则直接不存在
+                myhtml:"<a href='http://www.baidu.com'>sss</a>"
             }
         })
     </script>
