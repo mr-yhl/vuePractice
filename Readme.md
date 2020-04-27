@@ -27,6 +27,11 @@ This is my first exercise, this file is mainly familiar with vue is the basic fo
         })
     </script>
 ```
+## el是挂载点（支持双标签，body除外）
+可以使用多种选择器，用于设置vue实例挂载点
+ 1. #是id选择器（推荐使用）
+ 2. .是类选择器
+## data数据对象
 # vue-class绑定.html
 在本文件中，主要实现了class的绑定，及样式切换。
 In this document, the main implementation of class binding, and style switching.
