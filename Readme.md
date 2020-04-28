@@ -32,6 +32,7 @@ This is my first exercise, this file is mainly familiar with vue is the basic fo
  1. #是id选择器（推荐使用）
  2. .是类选择器
 ## data数据对象
+
 # vue-class绑定.html
 在本文件中，主要实现了class的绑定，及样式切换。
 In this document, the main implementation of class binding, and style switching.
